@@ -2,9 +2,9 @@
 使用快捷鍵對電腦螢幕進行截圖
 
 # 如何安裝 Pillow
-'''
+```
 pip install Pillow
-'''
+```
 可參考 [ Pillow官方文件 ]( http://pillow.readthedocs.org/en/3.1.x/index.html ) 
 
 # 如何安裝 PYHK
@@ -12,13 +12,13 @@ pip install Pillow
 先到  [pyhk](https://github.com/schurpf/pyhk)  下載(Download ZIP) <br>
 或是 <br>
 使用 cmd 輸入
-'''
+```
 git clone  https://github.com/schurpf/pyhk.git
-'''
+```
 使用方法
-'''
+```
 import pyhk.py
-'''
+```
 詳細使用方法可參考 [pyhk-end-user-documentation](http://schurpf.com/python/python-hotkey-module/pyhk-end-user-documentation/)
 
 # 如何安裝 pyHook
@@ -26,9 +26,9 @@ import pyhk.py
 電腦為32bit，請下載  pyHook-1.5.1-cp27-none-win32.whl<br>
 電腦為64bit，請下載  pyHook-1.5.1-cp27-none-win_amd64.whl<br>
 安裝方法，在 cmd 輸入(在這裡用64bit做範例)
-'''
+```
 pip install pyHook-1.5.1-cp27-none-win_amd64.whl
-'''
+```
 
 # 如何安裝 wxPython
 先到  [wxPython](http://www.wxpython.org/download.php)  下載對應的版本  <br>

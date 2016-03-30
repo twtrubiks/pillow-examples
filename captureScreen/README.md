@@ -9,7 +9,7 @@ pip install Pillow
 可參考 [ Pillow官方文件 ]( http://pillow.readthedocs.org/en/3.1.x/index.html ) 
 
 ### 如何安裝 PYHK
-先到  [pyhk](https://github.com/schurpf/pyhk)  下載(Download ZIP) <br>
+先到  [PYHK](https://github.com/schurpf/pyhk)  下載(Download ZIP) <br>
 或是 <br>
 使用 cmd 輸入
 ```
@@ -54,6 +54,11 @@ pyhton capture.py
 ## 輸出格式
 圖片檔
 ![alt tag]()
+
+## External 
+* [PYHK](https://github.com/schurpf/pyhk) 
+* [pyHook](http://www.lfd.uci.edu/~gohlke/pythonlibs/#pyhook)
+* [wxPython](http://www.wxpython.org/download.php) 
 
 ## Environment
 * Python 2.7.3

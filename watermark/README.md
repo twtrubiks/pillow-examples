@@ -13,9 +13,13 @@ pip install Pillow
 
 ## 使用方法
 ```
-pyhton watermark.py
+python example.py [文字] [字型] [字型大小] [位置] [旋轉] [透明度] 
 ```
 
+## 執行範例
+```
+python example.py 簽名 超世紀粗行書.TTF 50  CT 0 0.8 
+```
 
 ## 執行畫面
 ![alt tag]()

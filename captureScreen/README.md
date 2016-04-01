@@ -41,7 +41,7 @@ pip install pyHook-1.5.1-cp27-none-win_amd64.whl
 
 ## 使用方法
 ```
-pyhton capture.py
+python capture.py
 ```
 執行後，按鍵盤上的 'Ctrl' + 'F1' 就會對電腦螢幕進行截圖，<br>
 並詢問你要儲存的路徑以及圖片格式

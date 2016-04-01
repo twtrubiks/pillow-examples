@@ -14,7 +14,7 @@ def capture_fullscreen():
 def save_pic(pic, filename = '未命名圖片'):    
     # wx  用法可參考 http://www.wxpython.org/docs/api/wx.PySimpleApp-class.html
     app = wx.PySimpleApp()    
-    wildcard = "pictures (*.png,*.jpg,*.jpeg,*.bmp)|*.png;*.jpg;*.jpeg;*.bmp"      
+    wildcard = "pictures (*.png,*.jpeg,*.bmp)|*.png;*.jpeg;*.bmp"      
     #FileDialog用法	__init__(self, parent, message, defaultDir, defaultFile, wildcard, style, pos) 
     dialog = wx.FileDialog(None, "請選擇儲存路徑", os.getcwd(),
                            filename, wildcard, wx.FD_SAVE)

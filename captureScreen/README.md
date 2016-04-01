@@ -1,6 +1,6 @@
 # captureScreen
 使用快捷鍵對電腦螢幕進行截圖
-* [Demo Video等待新增]() - Windows 
+* [Demo Video]() - Windows 
 
 ### 如何安裝 Pillow
 ```
@@ -47,13 +47,17 @@ pyhton capture.py
 並詢問你要儲存的路徑以及圖片格式
 
 ## 執行畫面
-![alt tag]()
+輸入完，按下Enter鍵，即會在背景執行
+![alt tag](http://i.imgur.com/jracczI.jpg)
+按鍵盤上的 'Ctrl' + 'F1' 就會對電腦螢幕進行截圖<br>
+提供三種格式(.png .jpeg .bmp)<br>
+![alt tag](http://i.imgur.com/LKVhUyy.jpg)
 執行後程式會一直在背景執行<br>
 如需強制終止，請按鍵盤上的 'Ctrl' + 'C'
 
 ## 輸出格式
-圖片檔
-![alt tag]()
+路徑底下會多出一張圖片
+![alt tag](http://i.imgur.com/BPXq6Mt.jpg)
 
 ## External 
 * [PYHK](https://github.com/schurpf/pyhk) 

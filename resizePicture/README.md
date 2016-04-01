@@ -1,6 +1,6 @@
 # resizePicture
 透過 Pillow , 將路徑底下全部的圖片檔，重新設定大小、旋轉
-* [Demo Video等待新增]() - Windows 
+* [Demo Video]() - Windows 
 
 ### 如何安裝 Pillow
 ```
@@ -19,11 +19,11 @@ pyhton resize.py [模式] [大小or角度]
 ## 執行範例 
 ###範例一  圖片大小比率縮放
 ``` 
-python resize.py size 200
+python resize.py size 50
 ```
 說明:<br>
-該範例為將路徑底下全部的圖片大小放大為200%<br>
-如修改為50，即對圖片縮小50%<br>
+該範例為將路徑底下全部的圖片大小縮小為50%<br>
+如修改為150，即對圖片放大150%<br>
 ###範例二 指定圖片大小
 ``` 
 python resize.py size 640 360
@@ -43,16 +43,17 @@ python resize.py rotate 90
 
 ## 執行畫面
 ###範例一
-![alt tag]()
+執行後路徑底下會多一個名稱為 resized_images 的資料夾<br>
+資料夾裡會有 p1.jpg 和 p2.png 的縮小50%的圖片
+![alt tag](http://i.imgur.com/aJ3a76S.jpg)
 ###範例二
-![alt tag]()
+執行後路徑底下會多一個名稱為 resized_images 的資料夾<br>
+資料夾裡會有 p1.jpg 和 p2.png 的 640 * 360 大小的圖片
+![alt tag](http://i.imgur.com/zHhi3Gx.jpg)
 ###範例三
-![alt tag]()
-
-
-## 輸出格式
-圖片檔
-![alt tag]()
+執行後路徑底下會多一個名稱為 resized_images 的資料夾<br>
+資料夾裡會有 p1.jpg 和 p2.png 的 逆時針旋轉90度的圖片
+![alt tag](http://i.imgur.com/Xr4kqfx.jpg)
 
 ## Environment
 * Python 2.7.3

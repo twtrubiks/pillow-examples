@@ -36,6 +36,7 @@ def add_watermark( text, fontname, fontsize, position, angle, opacity, imagefile
     alpha = ImageEnhance.Brightness(alpha).enhance(opacity)
     watermark.putalpha(alpha)
     # PIL.Image.composite(image1, image2, mask)
+    print "Save to " + imagefile
     Image.composite(watermark, img, watermark).save(output_dir + "wm_" + imagefile, 'JPEG') 
     # 可參考 https://pillow.readthedocs.org/en/3.0.0/reference/Image.html    
     
@@ -57,6 +58,7 @@ def main() :
     text, fontname, fontsize ,position, angle, opacity =  sys.argv[1], sys.argv[2], sys.argv[3], sys.argv[4], sys.argv[5], sys.argv[6]
     
     for image_file in all_image_files:
+        print "Processing", image_file, "..."
         add_watermark( text, fontname, int(fontsize), position, int(angle), float(opacity), image_file, output_dir)
  
 if __name__ == "__main__":

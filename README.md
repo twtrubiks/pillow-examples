@@ -1,5 +1,5 @@
 # pillow-examples
-some pillow examples 
+some pillow examples  :pencil:
 
 ## Tutorial
 ```
@@ -14,7 +14,7 @@ pip install Pillow
 可參考 [ http://pillow.readthedocs.org/en/3.1.x/index.html ]( http://pillow.readthedocs.org/en/3.1.x/index.html ) 
 
 ## 特色
-* 練習 Pillow 這個套件，一些小作品
+* 練習 Pillow 這個套件，一些小作品 :smile: 
 
 ## 內容
 * [ captureScreen ](https://github.com/twtrubiks/pillow-examples/tree/master/captureScreen) : 使用快捷鍵對螢幕截圖 

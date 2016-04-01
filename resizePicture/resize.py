@@ -25,7 +25,7 @@ def main():
           setRatio(ratio, all_image_files)        
        # 指定圖片大小   # python resize.py  size 640 360
        if(len(sys.argv) == 4):
-          basewidth, baseheight = sys.argv[3],sys.argv[4]    
+          basewidth, baseheight = sys.argv[2],sys.argv[3]    
           setSize(basewidth, baseheight, all_image_files)    
     # 旋轉圖片 # python resize.py rotate 90   
     # 預設為 Counterclockwise Rotation 逆時針旋轉 ，如需順時針請修改為 -90         
@@ -51,7 +51,8 @@ def setRatio(ratio, all_image_files):
         width, height =  img.size
         width = int((width * float(ratio)/100))
         height = int((height * float(ratio)/100)) 
-        # Image.resize(size, resample=0)  size – The requested size in pixels, as a 2-tuple: (width, height).  width and height type int 
+        # Image.resize(size, resample=0)  
+        # size – The requested size in pixels, as a 2-tuple: (width, height).  width and height type int 
         img = img.resize( (width ,height) ,Image.ANTIALIAS)
         image_filename = output_dir + "/" + image_file
         print "Save to " + image_filename

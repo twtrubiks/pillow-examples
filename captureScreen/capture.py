@@ -19,7 +19,8 @@ def save_pic(pic, filename = '未命名圖片'):
     dialog = wx.FileDialog(None, "請選擇儲存路徑", os.getcwd(),
                            filename, wildcard, wx.FD_SAVE)
     if dialog.ShowModal() == wx.ID_OK:
-        pic.save(dialog.GetPath().encode(sys.getfilesystemencoding()))
+        format = dialog.GetPath().split(".")[-1]
+        pic.save(dialog.GetPath().encode(sys.getfilesystemencoding()),format)
     else:
         pass    
     dialog.Destroy()    

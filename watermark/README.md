@@ -13,7 +13,7 @@ pip install Pillow
 
 ## 使用方法
 ```
-python watermark.py [文字] [字型] [字型大小] [位置] [旋轉] [透明度] 
+python watermark.py [文字] [字型] [字型大小] [位置] [旋轉角度] [透明度] 
 ```
 
 ## 執行範例

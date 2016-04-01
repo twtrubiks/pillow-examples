@@ -45,10 +45,11 @@ python watermark.py 簽名 超世紀粗行書.TTF 50  CT 0 0.8
 ![alt tag](http://i.imgur.com/KgG0nuj.jpg)<br>
 路徑底下的圖片會被加上浮水印，並放在 watermark_images 資料夾裡<br>
 ![alt tag](http://i.imgur.com/Ge91eem.jpg)
-![alt tag](http://i.imgur.com/tBIrWcv.jpg)
+![alt tag](http://i.imgur.com/ltQnP1q.jpg)
 也可自行修改<br>
 ![alt tag](http://i.imgur.com/JUxl4xP.jpg)
 ![alt tag](http://i.imgur.com/tBIrWcv.jpg)
+
 
 ## Environment
 * Python 2.7.3

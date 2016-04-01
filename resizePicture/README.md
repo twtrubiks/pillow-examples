@@ -52,7 +52,7 @@ python resize.py rotate 90
 ![alt tag](http://i.imgur.com/zHhi3Gx.jpg)
 ###範例三
 執行後路徑底下會多一個名稱為 resized_images 的資料夾<br>
-資料夾裡會有 p1.jpg 和 p2.png 的 逆時針旋轉90度的圖片
+資料夾裡會有 p1.jpg 和 p2.png 的 逆時針旋轉90度的圖片<br>
 ![alt tag](http://i.imgur.com/Xr4kqfx.jpg)
 
 ## Environment

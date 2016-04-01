@@ -1,6 +1,6 @@
 # watermark
 透過 Pillow , 將路徑底下全部的圖片檔加上浮水印
-* [Demo Video等待新增]() - Windows 
+* [Demo Video]() - Windows 
 
 ### 如何安裝 Pillow
 ```
@@ -42,11 +42,11 @@ python watermark.py 簽名 超世紀粗行書.TTF 50  CT 0 0.8
 或是到本機的路徑 C:\Windows\Fonts 下取得字型
 
 ## 執行畫面
-![alt tag](http://i.imgur.com/KgG0nuj.jpg)
+![alt tag](http://i.imgur.com/KgG0nuj.jpg)<br>
 路徑底下的圖片會被加上浮水印，並放在 watermark_images 資料夾裡<br>
 ![alt tag](http://i.imgur.com/Ge91eem.jpg)
 ![alt tag](http://i.imgur.com/tBIrWcv.jpg)
-也可自行修改
+也可自行修改<br>
 ![alt tag](http://i.imgur.com/JUxl4xP.jpg)
 ![alt tag](http://i.imgur.com/tBIrWcv.jpg)
 

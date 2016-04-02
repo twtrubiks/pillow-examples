@@ -1,6 +1,6 @@
 # resizePicture
 透過 Pillow , 將路徑底下全部的圖片檔，重新設定大小、旋轉
-* [Demo Video]() - Windows 
+* [Demo Video](https://youtu.be/7MbGPZjNwmE) - Windows 
 
 ### 如何安裝 Pillow
 ```

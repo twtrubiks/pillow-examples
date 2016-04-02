@@ -13,7 +13,7 @@ pip install Pillow
 
 ## 使用方法
 ```
-pyhton resize.py [模式] [大小or角度] 
+python resize.py [模式] [大小or角度] 
 ```
 
 ## 執行範例 
